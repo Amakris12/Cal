@@ -1,0 +1,64 @@
+body{
+    background-color: #4a2ac0;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23678fdd'/%3E%3Cstop offset='1' stop-color='%234a2ac0'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23fff582' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23fff582' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+button{
+    width: 10rem;
+    height: 10rem;
+    background-color:white;
+    border: white .2rem groove;
+    color: black;
+    font-size: 1rem
+}
+div{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#empty{
+    color: black;
+    background-color: black;
+}
+#properties{
+    background-color: gray;
+}
+.equal{
+    background-color: orange;
+}
+input{
+    width: 25rem;
+}
+.font{
+    font-size: 2rem;
+}
+.divstyle{
+    width: 40rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 3rem;
+    border: white .3rem groove;
+}
+img{
+    position: relative; 
+    float: left;
+    left: 2rem;
+}
+#right{
+    position: relative; 
+    float: right;
+    left: 0rem;
+    right: 2rem;
+}
